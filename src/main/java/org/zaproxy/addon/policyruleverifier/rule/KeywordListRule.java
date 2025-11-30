@@ -16,6 +16,10 @@ public class KeywordListRule implements PolicyRule{
     private static final List<String> DEFAULT_KEYWORDS =
             List.of("password", "creditcard", "ssn", "token");
 
+    public KeywordListRule() {
+        this("KeywordListRule");
+    }
+
     public KeywordListRule(String policyName) {
         this(policyName, DEFAULT_KEYWORDS);
     }

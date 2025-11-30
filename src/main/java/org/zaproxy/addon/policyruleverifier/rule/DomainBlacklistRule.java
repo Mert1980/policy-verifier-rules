@@ -26,6 +26,10 @@ public class DomainBlacklistRule implements PolicyRule{
     private final String policyName;
     private final List<String> blockedDomains;
 
+    public DomainBlacklistRule() {
+        this("DomainBlacklistRule");
+    }
+
     public DomainBlacklistRule(String policyName) {
         this(policyName, DEFAULT_BLOCKED_DOMAINS);
     }
