@@ -1,0 +1,5 @@
+org.zaproxy.addon.policyruleverifier.rule.CookieAttributesRule
+org.zaproxy.addon.policyruleverifier.rule.DomainBlacklistRule
+org.zaproxy.addon.policyruleverifier.rule.EmailDetectionRule
+org.zaproxy.addon.policyruleverifier.rule.HttpsOnlyRule
+org.zaproxy.addon.policyruleverifier.rule.KeywordListRule
