@@ -10,6 +10,10 @@ public class HttpsOnlyRule implements PolicyRule {
 
     private final String policyName;
 
+    public HttpsOnlyRule() {
+        this("HttpsOnlyRule");
+    }
+
     public HttpsOnlyRule(String policyName) {
         this.policyName = policyName;
     }
